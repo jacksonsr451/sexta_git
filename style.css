@@ -1,0 +1,24 @@
+h1 {
+    color:red;
+}
+#imagem-um {
+    width:80%;
+}
+
+.texto-um {
+    background-color:#006600;
+}
+
+.texto-tres{
+    font-size: 150%;
+}
+
+h3 {
+    color:red;
+}
+
+.reu {
+    color:blue;
+    border-color: red;
+    border-style: solid;
+}
