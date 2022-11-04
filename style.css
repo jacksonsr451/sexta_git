@@ -1,6 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navegation {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+    background-color: #006600;
+    padding: .5rem;
+}
+
+.navegation > ul {
+    display: flex;
+    margin-top: .5rem;
+}
+
+.navegation > ul > li {
+    font-weight: bold;
+    margin-right: 1rem;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    border-radius: .8rem;
+}
+
+.navegation > ul > li:hover {
+    cursor: pointer;
+}
+
 h1 {
     color:red;
 }
+
 #imagem-um {
     width:80%;
 }
