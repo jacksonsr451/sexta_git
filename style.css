@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-ul {
-    list-style: none;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -23,6 +19,7 @@ a {
 .navegation > ul {
     display: flex;
     margin-top: .5rem;
+    list-style: none;
 }
 
 .navegation > ul > li {
