@@ -13,8 +13,7 @@ a {
 }
 
 .navegation {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     width: 100vw;
 
     background-color: #006600;
